@@ -13,19 +13,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.querySelectorAll('.dropdown-languages').forEach(dropdown => {
     dropdown.addEventListener('change', function () {
         let pathname = window.location.pathname;
-        let trimmedPath = pathname.substring(pathname.indexOf("/") + 1);
-        let path = trimmedPath.split("/");
-
-        if (languages.includes(path[0].trimStart("/"))) {  // check if first path part is a langauge
-            trimmedPath = path.slice(1).join("\/");
+        let basePath = "/magicbrawl.gg/";
+        
+        let relativePath = pathname.replace(basePath, "");
+        
+        if (relativePath.startsWith("ru/")) {
+            relativePath = relativePath.substring(3);
+        }
+        
+        if (relativePath === "" || relativePath === "ru") {
+            relativePath = "index.html";
         }
 
         switch (dropdown.dataset.value) {
             case 'en': 
-                window.location.pathname = `/${trimmedPath}`; 
+                window.location.href = basePath + relativePath; 
                 break;
-            default:
-                window.location.pathname = `/${dropdown.dataset.value}/${trimmedPath}`; 
+            case 'ru':
+                window.location.href = basePath + "ru.html"; 
                 break;
         }
     });
