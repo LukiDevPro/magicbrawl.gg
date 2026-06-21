@@ -8,10 +8,10 @@
 	<meta name="keywords" content="Magic Brawl, Retro Brawl, Magic Team, Magic's Servers, Private Servers, Меджик Бравл, Ретро Бравл">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="stylesheet" href="styles/styles.css@v=7.css">
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="stylesheet" href="/styles/styles.css?v=11">
 
-	<script defer src="js/dropdown.js"></script>
+	<script defer src="/js/dropdown.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F91SJZ2LNX"></script>
@@ -43,16 +43,16 @@
 <body>
 	<header class="header">
 		<div class="header__body">
-			<a class="header__title" href="index.html">Magic Team</a>
+			<a class="header__title" href="/">Magic Team</a>
 			<div class="header__languages mobile-hidden">
-				<a href="index.html">English</a>
-				<a href="ru.html#" selected>Русский</a>
+				<a href="/">English</a>
+				<a href="#" selected>Русский</a>
 			</div>
 			
 			<div class="dropdown dropdown-languages mobile-only">
 				<button class="dropdown__button">
 					<div class="dropdown__value"></div>
-					<img class="dropdown__chevron" src="icons/chevron-down.svg" alt="chevron">
+					<img class="dropdown__chevron" src="/icons/chevron-down.svg" alt="chevron">
 				</button>
 				
 				<ul class="dropdown__options">
@@ -83,24 +83,27 @@
 							Magic Team.<br>
 							Создаём лучшие сервера.
 						</h1>
-						<p>Мы создали Magic Brawl и Retro Brawl — популярные приватные сервера.</p>
+						<p>Мы создали Magic Brawl и Retro Brawl — популярные приватные сервера.</p>
 					</div>
-					<a class="button button-purple button_large" href="ru.html#servers">Скачать</a>
+					<a class="button button-purple button_large" href="#servers">Скачать</a>
 				</div>
 			</div>
 		</section>
 		<section class="block block_dark" id="servers">
 			<div class="block__container" id="block-downloads">
-				<h2 class="block__title">Наши сервера</h2>
+				<div class="block__info">
+					<h2 class="block__title">Наши сервера</h2>
+					<p class="block__description">Перейдите ниже, чтобы установить устаревшие проекты</p>
+				</div>
 				<div class="block__content cards">
 					<article class="card download-card card-application" id="magicbrawl">
 						<div class="card__body download-card__body">
 							<div class="card__general_info">
 								<div class="card__title_info">
-									<img class="card-application__icon" src="images/mb-icon.png" alt="" width="100" height="100">
+									<img class="card-application__icon" src="/images/mb-icon-fumey.png" alt="" width="100" height="100">
 									<div class="card__title_info_extra">
 										<h3 class="card__title">Magic Brawl</h3>
-										<span class="card__extra_info">Версия: 50.221</span>
+										<span class="card__extra_info">Версия: 52.177</span>
 										<div>
 											<span style="display: initial;white-space: nowrap;" class="archive-badge">Обновляется</span>
 											<span style="display: initial;white-space: nowrap;" class="archive-badge">Уникальные бойцы</span>
@@ -109,38 +112,15 @@
 										</div>
 									</div>
 								</div>
+								<p class="card__status">Поддерживается на всех устройствах.</p>
 								<p class="card__description">Magic Brawl — это перерождение Brawl Stars и его лучших времён! 
 									На сервере доступен весь контент: онлайн-сражения, все персонажи, а также уникальные бойцы, 
 									скины и другие эксклюзивные элементы. Скачав этот сервер, 
 									вы сможете получить максимум удовольствия от игры — мы регулярно обновляем проект!</p>
 							</div>
 							<div class="card__buttons">
-								<a class="button" href="latest_mb" download>Скачать на Android</a>
+								<a class="button" href="https://magicbrawl.gg/latest_mb" download>Скачать на Android</a>
 								<a class="button" href="https://magicbrawl.gg/latest_mb_ipa" download>Скачать на iOS (IPA)</a>
-							</div>
-						</div>
-					</article>
-					<article class="card download-card card-application" id="retrobrawl">
-						<div class="card__body download-card__body">
-							<div class="card__general_info">
-								<div class="card__title_info">
-									<img src="https://magicbrawl.gg/images/rb-icon.png" alt="" width="100" height="100">
-									<div class="card__title_info_extra">
-										<h3 class="card__title">Retro Brawl</h3>
-										<span class="card__extra_info">Версия: 12.98</span>
-										<div>
-											<span style="display: initial;" class="archive-badge">Архивная версия</span>
-										</div>
-									</div>
-								</div>
-								<p class="card__description">Retro Brawl — это оригинальная версия Brawl Stars образца 2018 года. 
-									На сервере доступны онлайн-сражения, 21 персонаж со звёздными силами, кланы и многое другое. 
-									Окунитесь в атмосферу лучших времён — от классического меню до ностальгичных ощущений!</p>
-							</div>
-
-							<div class="card__buttons">
-								<a class="button" href="https://magicbrawl.gg/latest_retrobrawl" download>Скачать на Android</a>
-								<a class="button" href="https://magicbrawl.gg/latest_retrobrawl_ipa" download>Скачать на iOS (IPA)</a>
 							</div>
 						</div>
 					</article>
@@ -156,21 +136,21 @@
 				<div class="block__content cards">
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/ru/images/installation_step1.png" alt="">
+							<img src="images/installation_step1.png" alt="">
 							<h3 class="card__title">Шаг 1. Скачайте APK</h3>
 							<p class="card__description">Выберите сервер, который хотите скачать и загрузите APK файл.</p>
 						</div>
 					</div>
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/ru/images/installation_step2.png" alt="">
+							<img src="images/installation_step2.png" alt="">
 							<h3 class="card__title">Шаг 2. Разрешите установку из сторонних источников</h3>
 							<p class="card__description">Это необходимо, если вы устанавливаете игру не из Google Play.</p>
 						</div>
 					</div>
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/ru/images/installation_step3.png" alt="">
+							<img src="images/installation_step3.png" alt="">
 							<h3 class="card__title">Шаг 3. Установите</h3>
 							<p class="card__description">Нажмите кнопку «Установить».</p>
 						</div>
@@ -187,15 +167,79 @@
 				<div class="block__content event-cards">
 					<div class="card event-cards__card card-instruction-step">
 						<div class="card__body">
-							<img class="event_image" src="https://magicbrawl.gg/images/sprout_gamer_event.png" alt="">
-							<div class="event_date">До 1 апреля</div>
+							<img class="event_image" src="/images/sprout_gamer_event.png" alt="">
+							<div class="event_date">До 1 июля</div>
 							<div class="event-cards__card-body">
 								<h3 class="card__title">Геймер Спраут бесплатно!</h3>
 								<p class="card__description">Заберите Геймера Спраута прямо сейчас в Magic Brawl!</p>
-								<a class="button event-cards__card-button" href="ru.html#servers">ЗАБРАТЬ</a>
+								<a class="button event-cards__card-button" href="#servers">ЗАБРАТЬ</a>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block" id="block-vouchers">
+			<div class="block__container">
+				<div class="block__info">
+					<h2 class="block__title">Бесплатные ваучеры</h2>
+				</div>
+				<div class="block__content vouchers">
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин гоблина</span>
+							<img class="voucher-card__image" src="/images/goblin_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/goblin-new" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин гоблина</span>
+							<img class="voucher-card__image" src="/images/goblin_clock_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/goblin-clock" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин обоюдно</span>
+							<img class="voucher-card__image" src="/images/coolglass_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/cool-glass" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин Фьюми</span>
+							<img class="voucher-card__image" src="/images/fumey_frog_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/fumey-frog" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин Фьюми</span>
+							<img class="voucher-card__image" src="/images/fumey_team_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/fumey-team" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Пин Сикс Севен</span>
+							<img class="voucher-card__image" src="/images/pin_wizard_67.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/ru/vouchers/six-seven" class="voucher-card__button">ПОЛУЧИТЬ</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block" id="block-shop">
+			<div class="block__container">
+				<div class="block__info">
+					<h2 class="block__title">Магазин доната</h2>
+					<p class="block__description">На нашем проекте доступен магазин доната, который необходим для поддержки проекта. При этом донат не является обязательным — развитие в игре возможно и без него.</p>
+				</div>
+				<div class="block__content">
+					<a class="button button-purple button_social" href="https://shop.magicbrawl.gg/ru" target="_blank">
+						Магазин доната
+					</a>
 				</div>
 			</div>
 		</section>
@@ -215,7 +259,7 @@
 				<ul class="block__content socials">
 					<li>
 						<a class="button button-purple button_social" href="https://t.me/magics_servers" target="_blank">
-							<div class="icon"><img src="https://magicbrawl.gg/icons/telegram.svg" alt=""></div><span>Telegram</span>
+							<div class="icon"><img src="/icons/telegram.svg" alt=""></div><span>Telegram</span>
 						</a>
 					</li>
 				</ul>
@@ -237,7 +281,7 @@
 				<div class="footer-block">
                     <h3 class="footer-block__title">Важная информация</h3>
                     <ul class="footer-block__content footer-block__links">
-                        <li><a href="https://magicbrawl.gg/ru/server-rules.html">Правила серверов</a></li>
+                        <li><a href="/ru/server-rules.html">Правила серверов</a></li>
                     </ul>
                 </div>
 				<div class="footer-block">
@@ -246,10 +290,17 @@
 						<li><a href="https://t.me/magics_servers" target="_blank">Telegram</a></li>
 					</ul>
 				</div>
+				<div class="footer-block">
+					<h3 class="footer-block__title">Устаревшие проекты</h3>
+					<ul class="footer-block__content footer-block__links">
+						<li><a href="https://magicbrawl.gg/latest_retrobrawl" target="_blank">Скачать Retro Brawl на Android</a></li>
+						<li><a href="https://magicbrawl.gg/latest_retrobrawl_ipa" target="_blank">Скачать Retro Brawl на iOS</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="footer__copyright">2023, Magic Team</div>
 		</div>
 	</footer>
-	<script defer src="https://magicbrawl.gg/js/main.js?v=5"></script>
+	<script defer src="/js/main.js?v=5"></script>
 </body>
 </html>

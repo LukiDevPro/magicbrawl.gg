@@ -8,10 +8,10 @@
 	<meta name="keywords" content="Magic Brawl, Retro Brawl, Magic Team, Magic's Servers, Private Servers">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="stylesheet" href="styles/styles.css@v=7.css">
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="stylesheet" href="/styles/styles.css?v=11">
 
-	<script defer src="js/dropdown.js"></script>
+	<script defer src="/js/dropdown.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F91SJZ2LNX"></script>
@@ -43,16 +43,16 @@
 <body>
 	<header class="header">
 		<div class="header__body">
-			<a class="header__title" href="index.html">Magic Team</a>
+			<a class="header__title" href="/">Magic Team</a>
 			<div class="header__languages mobile-hidden">
-				<a href="index.html" selected>English</a>
-				<a href="ru.html">Русский</a>
+				<a href="/" selected>English</a>
+				<a href="/ru">Русский</a>
 			</div>
 			
 			<div class="dropdown dropdown-languages mobile-only">
 				<button class="dropdown__button">
 					<div class="dropdown__value"></div>
-					<img class="dropdown__chevron" src="icons/chevron-down.svg" alt="chevron">
+					<img class="dropdown__chevron" src="/icons/chevron-down.svg" alt="chevron">
 				</button>
 				
 				<ul class="dropdown__options">
@@ -70,7 +70,7 @@
 <!--					<div class="important-notice">-->
 <!--						<h2 class="important-notice__title">Important Notice-->
 <!--						</h2>-->
-<!--						<p class="important-notice__description">On February 18, the project’s infrastructure was subjected to a DDoS attack. The administration team is taking all necessary measures to resolve the issue as quickly as possible and restore stable operation. We apologize for any inconvenience caused and appreciate your understanding.</p>-->
+<!--						<p class="important-notice__description">On February 18, the project's infrastructure was subjected to a DDoS attack. The administration team is taking all necessary measures to resolve the issue as quickly as possible and restore stable operation. We apologize for any inconvenience caused and appreciate your understanding.</p>-->
 <!--					</div>-->
 <!--				</div>-->
 <!--			</div>-->
@@ -83,24 +83,27 @@
 							Magic Team.<br>
 							We are creating the best servers.
 						</h1>
-						<p>We have created Magic Brawl and Retro Brawl — popular servers.</p>
+						<p>We have created Magic Brawl and Retro Brawl — popular servers.</p>
 					</div>
-					<a class="button button-purple button_large" href="index.html#servers">Download</a>
+					<a class="button button-purple button_large" href="#servers">Download</a>
 				</div>
 			</div>
 		</section>
 		<section class="block block_dark" id="servers">
 			<div class="block__container" id="block-downloads">
-				<h2 class="block__title">Our servers</h2>
+				<div class="block__info">
+					<h2 class="block__title">Our servers</h2>
+					<p class="block__description">Scroll down to install legacy projects</p>
+				</div>
 				<div class="block__content cards">
 					<article class="card download-card card-application" id="magicbrawl">
 						<div class="card__body download-card__body">
 							<div class="card__general_info">
 								<div class="card__title_info">
-									<img class="card-application__icon" src="images/mb-icon.png" alt="" width="100" height="100">
+									<img class="card-application__icon" src="/images/mb-icon-fumey.png" alt="" width="100" height="100">
 									<div class="card__title_info_extra">
 										<h3 class="card__title">Magic Brawl</h3>
-										<span class="card__extra_info">Version: 50.221</span>
+										<span class="card__extra_info">Version: 52.177</span>
 										<div>
 											<span style="display: initial;white-space: nowrap;" class="archive-badge">Updating</span>
 											<span style="display: initial;white-space: nowrap;" class="archive-badge">Unique brawlers</span>
@@ -109,33 +112,12 @@
 										</div>
 									</div>
 								</div>
+								<p class="card__status">Supported on all devices.</p>
 								<p class="card__description">Magic Brawl is a rebirth of Brawl Stars and its golden era! The server offers full content: online battles, all characters, as well as unique brawlers, skins, and other exclusive elements. By downloading this server, you'll enjoy the game to the fullest — we regularly update the project!</p>
 							</div>
 							<div class="card__buttons">
-								<a class="button" href="latest_mb" download>Download on Android</a>
+								<a class="button" href="https://magicbrawl.gg/latest_mb" download>Download on Android</a>
 								<a class="button" href="https://magicbrawl.gg/latest_mb_ipa" download>Download on iOS</a>
-							</div>
-						</div>
-					</article>
-					<article class="card download-card card-application" id="retrobrawl">
-						<div class="card__body download-card__body">
-							<div class="card__general_info">
-								<div class="card__title_info">
-									<img src="https://magicbrawl.gg/images/rb-icon.png" alt="" width="100" height="100">
-									<div class="card__title_info_extra">
-										<h3 class="card__title">Retro Brawl</h3>
-										<span class="card__extra_info">Version: 12.98</span>
-										<div>
-											<span style="display: initial;" class="archive-badge">Archived version</span>
-										</div>
-									</div>
-								</div>
-								<p class="card__description">Retro Brawl is the original version of Brawl Stars from 2018. The server features online battles, 21 characters with star powers, clans, and much more. Immerse yourself in the atmosphere of the good old days — from the classic menu to nostalgic vibes!</p>
-							</div>
-
-							<div class="card__buttons">
-								<a class="button" href="https://magicbrawl.gg/latest_retrobrawl" download>Download on Android</a>
-								<a class="button" href="https://magicbrawl.gg/latest_retrobrawl_ipa" download>Download on iOS</a>
 							</div>
 						</div>
 					</article>
@@ -151,21 +133,21 @@
 				<div class="block__content cards">
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/images/installation_step1.png" alt="">
+							<img src="images/installation_step1.png" alt="">
 							<h3 class="card__title">Step 1. Download the APK</h3>
 							<p class="card__description">Select the server you want to download and upload the APK file.</p>
 						</div>
 					</div>
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/images/installation_step2.png" alt="">
+							<img src="images/installation_step2.png" alt="">
 							<h3 class="card__title">Step 2. Allow installation from third-party sources</h3>
 							<p class="card__description">This is required if you are installing the game from outside of Google Play.</p>
 						</div>
 					</div>
 					<div class="card card-instruction-step">
 						<div class="card__body">
-							<img src="https://magicbrawl.gg/images/installation_step3.png" alt="">
+							<img src="images/installation_step3.png" alt="">
 							<h3 class="card__title">Step 3. Install</h3>
 							<p class="card__description">Click the "Install" button.</p>
 						</div>
@@ -177,21 +159,85 @@
 			<div class="block__container">
 				<div class="block__info">
 					<h2 class="block__title">Active events</h2>
-					<p class="block__description">Discover our project’s activity</p>
+					<p class="block__description">Discover our project's activity</p>
 				</div>
 				<div class="block__content event-cards">
 						<div class="card event-cards__card card-instruction-step">
 							<div class="card__body">
-								<img class="event_image" src="https://magicbrawl.gg/images/sprout_gamer_event.png" alt="">
-								<div class="event_date">Until April 1</div>
+								<img class="event_image" src="/images/sprout_gamer_event.png" alt="">
+								<div class="event_date">Until July 1</div>
 								<div class="event-cards__card-body">
 									<h3 class="card__title">Gamer Sprout for free!</h3>
 									<p class="card__description">Get Gamer Sprout right now!</p>
-									<a class="button event-cards__card-button" href="index.html#servers">CLAIM</a>
+									<a class="button event-cards__card-button" href="#servers">CLAIM</a>
 								</div>
 							</div>
 						</div>
 					</div>
+			</div>
+		</section>
+		<section class="block" id="block-vouchers">
+			<div class="block__container">
+				<div class="block__info">
+					<h2 class="block__title">Free vouchers</h2>
+				</div>
+				<div class="block__content vouchers">
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Goblin Pin</span>
+							<img class="voucher-card__image" src="/images/goblin_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/goblin-new" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Goblin Pin</span>
+							<img class="voucher-card__image" src="/images/goblin_clock_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/goblin-clock" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Pin</span>
+							<img class="voucher-card__image" src="/images/coolglass_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/cool-glass" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Pin</span>
+							<img class="voucher-card__image" src="/images/fumey_frog_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/fumey-frog" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Pin</span>
+							<img class="voucher-card__image" src="/images/fumey_team_pin.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/fumey-team" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+					<div class="voucher-card">
+						<div class="voucher-card__wrapper">
+							<span class="voucher-card__title">Six Seven Pin</span>
+							<img class="voucher-card__image" src="/images/pin_wizard_67.png" alt="Pin"/>
+							<a href="https://magicbrawl.gg/vouchers/six-seven" class="voucher-card__button">CLAIM</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block" id="block-shop">
+			<div class="block__container">
+				<div class="block__info">
+					<h2 class="block__title">Donation store</h2>
+					<p class="block__description">An in-game store is available on our project to support its development. However, purchases are completely optional — you can progress in the game without them.</p>
+				</div>
+				<div class="block__content">
+					<a class="button button-purple button_social" href="https://shop.magicbrawl.gg/en" target="_blank">
+						Donation store
+					</a>
+				</div>
 			</div>
 		</section>
 		<section class="block" id="block-news">
@@ -210,7 +256,7 @@
 				<ul class="block__content socials">
 					<li>
 						<a class="button button-purple button_social" href="https://t.me/retrobrawl_en" target="_blank">
-							<div class="icon"><img src="https://magicbrawl.gg/icons/telegram.svg" alt=""></div><span>Telegram</span>
+							<div class="icon"><img src="/icons/telegram.svg" alt=""></div><span>Telegram</span>
 						</a>
 					</li>
 				</ul>
@@ -232,7 +278,7 @@
 				<div class="footer-block">
 					<h3 class="footer-block__title">Important information</h3>
 					<ul class="footer-block__content footer-block__links">
-						<li><a href="https://magicbrawl.gg/server-rules.html">Server Rules</a></li>
+						<li><a href="/server-rules.html">Server Rules</a></li>
 					</ul>
 				</div>
 				<div class="footer-block">
@@ -241,10 +287,17 @@
 						<li><a href="https://t.me/retrobrawl_en" target="_blank">Telegram</a></li>
 					</ul>
 				</div>
+				<div class="footer-block">
+					<h3 class="footer-block__title">Legacy projects</h3>
+					<ul class="footer-block__content footer-block__links">
+						<li><a href="https://magicbrawl.gg/latest_retrobrawl" target="_blank">Download Retro Brawl on Android</a></li>
+						<li><a href="https://magicbrawl.gg/latest_retrobrawl_ipa" target="_blank">Download Retro Brawl on iOS</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="footer__copyright">2023, Magic Team</div>
 		</div>
 	</footer>
-	<script defer src="https://magicbrawl.gg/js/main.js?v=5"></script>
+	<script defer src="/js/main.js?v=5"></script>
 </body>
 </html>
